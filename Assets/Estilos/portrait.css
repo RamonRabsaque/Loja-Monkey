@@ -11,29 +11,40 @@
     .FundoEscuro {
         height: 100%;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.288);
+        background-color: rgba(0, 0, 0, 0.388);
     }
+
+    .conteudoConteiner1 {
+        animation: MeuSlogan 1s ease;
+    }
+    
+    @keyframes MeuSlogan {
+        to {
+            left: 50%;
+        }
+    
+        from {
+            left: -200%;
+        }
+    }
+    .conteudoConteiner1>button {
+        padding: 1.2rem 6rem;
+        font-size: 1.4rem;
+        font-weight: bolder;
+        animation: meusBotoes 1.4s ease;
+        font-family: 'poppins', 'kanit', 'sansita', 'ubuntu';
+        letter-spacing: 2px;
+    }
+    
 }
+
 
 #conteiner-2 {
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 0, 0, 0.534);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-
-.conteudoConteiner1 {
-    animation: MeuSlogan 1s ease;
-}
-
-@keyframes MeuSlogan {
-    to {
-        left: 50%;
-    }
-
-    from {
-        left: -200%;
-    }
-}
-
 
 
