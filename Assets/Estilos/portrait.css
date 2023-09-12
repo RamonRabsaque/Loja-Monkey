@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+#conteiner-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Imagens/Template/Templeite-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    .FundoEscuro {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.288);
+    }
+}
+
+#conteiner-2 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.534);
+}
+
+.conteudoConteiner1 {
+    animation: MeuSlogan 1s ease;
+}
+
+@keyframes MeuSlogan {
+    to {
+        left: 50%;
+    }
+
+    from {
+        left: -200%;
+    }
+}
+
+
+
